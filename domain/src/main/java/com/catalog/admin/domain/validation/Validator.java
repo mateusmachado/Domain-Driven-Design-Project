@@ -11,6 +11,6 @@ public abstract class Validator {
     public abstract void validate();
 
     protected ValidationHandler validationHandler() {
-        return this.handler
+        return this.handler;
     }
 }
