@@ -100,7 +100,7 @@ class CategoryTest {
     }
 
     @Test
-    public void givenAValidActiveCategory_whenCallDeactivate_thenReturnCategoryInactivated() {
+    void givenAValidActiveCategory_whenCallDeactivate_thenReturnCategoryInactivated() {
         final var expectedName = "Movies";
         final var expectedDescription = "Most watched category";
         final var expectedIsActive = false;
@@ -128,7 +128,7 @@ class CategoryTest {
     }
 
     @Test
-    public void givenAValidInactiveCategory_whenCallActivate_thenReturnCategoryActivated() {
+    void givenAValidInactiveCategory_whenCallActivate_thenReturnCategoryActivated() {
         final var expectedName = "Movies";
         final var expectedDescription = "Most watched category";
         final var expectedIsActive = true;
@@ -154,7 +154,7 @@ class CategoryTest {
     }
 
     @Test
-    public void givenAValidCategory_whenCallUpdate_thenReturnCategoryUpdate() {
+    void givenAValidCategory_whenCallUpdate_thenReturnCategoryUpdate() {
         final var expectedName = "Movies";
         final var expectedDescription = "Most watched category";
         final var expectedIsActive = true;
